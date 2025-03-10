@@ -42,31 +42,36 @@
                     <!--  menu -->
                     <nav class="menu">
                         <ul>
-                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#" class="ativo">Inicio</a></li>
                             <li><a href="#">Cursos + </a></li>
                             <li><a href="#">Sobre + </a></li>
                             <li><a href="#">Contato</a></li>
 
                             <button type="button" class="btnE"><i class='bx bxs-user'></i>ENTRAR</button>
-                            <button type="button" class="btnC"><i class='bx bxs-group' ></i>CADASTRAR-SE</button>
+                            <button type="button" class="btnC"><i class='bx bxs-group'></i>CADASTRAR-SE</button>
                         </ul>
                     </nav>
                 </div>
 
-                <!-- banner -->
-                <div class="bannerI">
-                    <div class="text">
-                        <h2>Educação para o futuro</h2>
-                        <h1>Transforme seu Conhecimento <br>
-                            com a FutureEdu</h1>
-                        <h4>Cursos online e presenciais com especialistas renomados. Desenvolva habilidades essenciais e
-                            conquiste novas oportunidades no mercado de trabalho !</h4>
-                    </div>
+                <button class="abrir-menu"></button>
+                <nav class="menuH"> <!-- inicio-menu -->
+                    <button class="fechar-menu"></button>
+                    
+                    <!-- banner -->
+                    <div class="bannerI">
+                        <div class="text">
+                            <h2>Educação para o futuro</h2>
+                            <h1>Transforme seu Conhecimento <br>
+                                com a FutureEdu</h1>
+                            <h4>Cursos online e presenciais com especialistas renomados. Desenvolva habilidades
+                                essenciais e
+                                conquiste novas oportunidades no mercado de trabalho !</h4>
+                        </div>
 
-                    <div class="img">
-                        <img src="asserts/img/01.png" alt="">
+                        <div class="img">
+                            <img src="assets/img/01.png" alt="">
+                        </div>
                     </div>
-                </div>
             </section>
         </div>
     </header>
@@ -76,16 +81,16 @@
         <div class="carroselC">
             <div class="carrosel-wrapper">
                 <div class="carrosel">
-                    <img class="carrosel-img" src="asserts/img/c-sharp.png" alt="C Sharp">
-                    <img class="carrosel-img" src="asserts/img/css.png" alt="CSS">
-                    <img class="carrosel-img" src="asserts/img/excel.png" alt="Excel">
-                    <img class="carrosel-img" src="asserts/img/git.png" alt="Git">
-                    <img class="carrosel-img" src="asserts/img/html.png" alt="HTML">
-                    <img class="carrosel-img" src="asserts/img/js.png" alt="JavaScript">
-                    <img class="carrosel-img" src="asserts/img/c++.png" alt="C++">
-                    <img class="carrosel-img" src="asserts/img/ts.png" alt="TypeScript">
-                    <img class="carrosel-img" src="asserts/img/mysql.png" alt="MySQL">
-                    <img class="carrosel-img" src="asserts/img/php.png" alt="PHP">
+                    <img class="carrosel-img" src="assets/img/c-sharp.png" alt="C Sharp">
+                    <img class="carrosel-img" src="assets/img/css.png" alt="CSS">
+                    <img class="carrosel-img" src="assets/img/excel.png" alt="Excel">
+                    <img class="carrosel-img" src="assets/img/git.png" alt="Git">
+                    <img class="carrosel-img" src="assets/img/html.png" alt="HTML">
+                    <img class="carrosel-img" src="assets/img/js.png" alt="JavaScript">
+                    <img class="carrosel-img" src="assets/img/c++.png" alt="C++">
+                    <img class="carrosel-img" src="assets/img/ts.png" alt="TypeScript">
+                    <img class="carrosel-img" src="assets/img/mysql.png" alt="MySQL">
+                    <img class="carrosel-img" src="assets/img/php.png" alt="PHP">
                 </div>
             </div>
         </div>
@@ -97,34 +102,33 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#"><img src="asserts/img/Desenvolvimento-Web.png" alt="Desenvolvimento Web"></a>
+                        <a href="#"><img src="assets/img/Desenvolvimento-Web.png" alt="Desenvolvimento Web"></a>
                         <p>Desenvolvimento Web</p>
                         <span>35 Cursos</span>
                     </li>
                     <li>
-                        <a href="#"><img src="asserts/img/JavaScript-e-Frameworks.png"
-                                alt="JavaScript e Frameworks"></a>
+                        <a href="#"><img src="assets/img/JavaScript-e-Frameworks.png" alt="JavaScript e Frameworks"></a>
                         <p>JavaScript e Frameworks</p>
                         <span>42 Cursos</span>
                     </li>
                     <li>
-                        <a href="#"><img src="asserts/img/Python-e-Ciência-de-Dados.png" alt="Ciência de Dados"></a>
+                        <a href="#"><img src="assets/img/Python-e-Ciência-de-Dados.png" alt="Ciência de Dados"></a>
                         <p>Ciência de Dados</p>
                         <span>28 Cursos</span>
                     </li>
                     <li>
-                        <a href="#"><img src="asserts/img/PHP-e-Desenvolvimento-Back-End.png"
+                        <a href="#"><img src="assets/img/PHP-e-Desenvolvimento-Back-End.png"
                                 alt="Desenvolvimento Back-End"></a>
                         <p>Desenvolvimento Back-End</p>
                         <span>30 Cursos</span>
                     </li>
                     <li>
-                        <a href="#"><img src="asserts/img/Banco-de-Dados-e-SQL.png" alt="Banco de Dados e SQL"></a>
+                        <a href="#"><img src="assets/img/Banco-de-Dados-e-SQL.png" alt="Banco de Dados e SQL"></a>
                         <p>Banco de Dados e SQL</p>
                         <span>25 Cursos</span>
                     </li>
                     <li>
-                        <a href="#"><img src="asserts/img/Desenvolvimento-Mobile-e-PWA.png"
+                        <a href="#"><img src="assets/img/Desenvolvimento-Mobile-e-PWA.png"
                                 alt="Desenvolvimento Mobile e PWA"></a>
                         <p>Desenvolvimento Mobile e PWA</p>
                         <span>20 Cursos</span>
@@ -141,7 +145,7 @@
             <div class="cards">
                 <!-- CARD 1 -->
                 <div class="card">
-                    <img class="cursoI" src="asserts/img/Desenvolvimento-Web.png" alt="Desenvolvimento Web">
+                    <img class="cursoI" src="assets/img/Desenvolvimento-Web.png" alt="Desenvolvimento Web">
                     <h4 class="titulo">Desenvolvimento Web</h4>
                     <div class="cardT">
                         <span class="avaliacoes">★★★★★ (12 avaliações)</span>
@@ -153,7 +157,7 @@
                             <span class="modo">| Curso Online</span>
                         </div>
                         <div class="professor">
-                            <img class="professorI" src="asserts/img/Carlos-Silva.png" alt="Carlos Silva">
+                            <img class="professorI" src="assets/img/Carlos-Silva.png" alt="Carlos Silva">
                             <span class="nome">Carlos Silva</span>
                         </div>
                         <a href="#" class="btn-saiba-mais">Saiba Mais</a>
@@ -162,7 +166,7 @@
 
                 <!-- CARD 2 -->
                 <div class="card">
-                    <img class="cursoI" src="asserts/img/JavaScript-e-Frameworks.png" alt="JavaScript e Frameworks">
+                    <img class="cursoI" src="assets/img/JavaScript-e-Frameworks.png" alt="JavaScript e Frameworks">
                     <h4 class="titulo">JavaScript e Frameworks</h4>
                     <div class="cardT">
                         <span class="avaliacoes">★★★★★ (15 avaliações)</span>
@@ -174,7 +178,7 @@
                             <span class="modo">| Curso Online</span>
                         </div>
                         <div class="professor">
-                            <img class="professorI" src="asserts/img/Mariana-Rocha.png" alt="Mariana Rocha">
+                            <img class="professorI" src="assets/img/Mariana-Rocha.png" alt="Mariana Rocha">
                             <span class="nome">Mariana Rocha</span>
                         </div>
                         <a href="#" class="btn-saiba-mais">Saiba Mais</a>
@@ -183,7 +187,7 @@
 
                 <!-- CARD 3 -->
                 <div class="card">
-                    <img class="cursoI" src="asserts/img/PHP-e-Desenvolvimento-Back-End.png" alt="PHP e MySQL">
+                    <img class="cursoI" src="assets/img/PHP-e-Desenvolvimento-Back-End.png" alt="PHP e MySQL">
                     <h4 class="titulo">PHP e MySQL</h4>
                     <div class="cardT">
                         <span class="avaliacoes">★★★★★ (10 avaliações)</span>
@@ -195,7 +199,7 @@
                             <span class="modo">| Curso Online</span>
                         </div>
                         <div class="professor">
-                            <img class="professorI" src="asserts/img/Lucas-Fernandes.png" alt="Lucas Fernandes">
+                            <img class="professorI" src="assets/img/Lucas-Fernandes.png" alt="Lucas Fernandes">
                             <span class="nome">Lucas Fernandes</span>
                         </div>
                         <a href="#" class="btn-saiba-mais">Saiba Mais</a>
@@ -206,7 +210,7 @@
 
         <div class="sobre">
             <div class="faixa"></div>
-            <img src="asserts/img/instalacoes.png" alt="Instalações">
+            <img src="assets/img/instalacoes.png" alt="Instalações">
             <div class="conteudo">
                 <h3>Sobre a FutureEdu</h3>
                 <h2>Qualificação Profissional e <br> Habilidades para o Futuro</h2>
@@ -217,7 +221,7 @@
 
                 <div class="cardS">
                     <div class="prof">
-                        <img src="asserts/img/Carlos-Silva.png" alt="Carlos Silva">
+                        <img src="assets/img/Carlos-Silva.png" alt="Carlos Silva">
                     </div>
                     <div class="cardText">
                         <h4>Instrutores Especializados</h4>
@@ -229,7 +233,7 @@
 
                 <div class="cardS">
                     <div class="prof">
-                        <img src="asserts/img/Mariana-Rocha.png" alt="Mariana Rocha">
+                        <img src="assets/img/Mariana-Rocha.png" alt="Mariana Rocha">
                     </div>
                     <div class="cardText">
                         <h4>Certificação Valorizada</h4>
@@ -242,7 +246,7 @@
 
                 <div class="cardS">
                     <div class="prof">
-                        <img src="asserts/img/Lucas-Fernandes.png" alt="Lucas Fernandes">
+                        <img src="assets/img/Lucas-Fernandes.png" alt="Lucas Fernandes">
                     </div>
                     <div class="cardText">
                         <h4>Aulas Online e Flexiveis</h4>

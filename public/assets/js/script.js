@@ -9,6 +9,7 @@ window.onscroll = function () {
     }
 }
 
+// Carrosel
 document.addEventListener("DOMContentLoaded", function () {
     const carrossel = document.querySelector(".carrosel");
     const imagens = document.querySelectorAll(".carrosel-img");
@@ -27,3 +28,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     setInterval(avancarCarrossel, 3000); // Troca a cada 3 segundos
 });
+
+//Menu Mobile
+document.querySelector(".abrir-menu").onclick = function () {
+    document.documentElement.classList.add("menu-ativo");
+}
+
+document.querySelector(".fechar-menu").onclick = function () {
+    document.documentElement.classList.remove("menu-ativo");
+}

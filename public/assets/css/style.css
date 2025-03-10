@@ -59,7 +59,7 @@ header {
     padding: 20px 0;
 }
 
-.menu-fixo {
+.menu {
     position: fixed;
     top: 0;
     z-index: 10;
@@ -153,6 +153,15 @@ header {
 
 .menu button {
     margin-left: 10px;
+}
+
+.menuH {
+    flex-grow: 2;
+    align-content: center;
+}
+
+.ativo {
+    color: #007ab3 !important;
 }
 
 /* botões */
@@ -515,7 +524,6 @@ header {
     position: relative;
     height: 650px;
     /* bottom: -99px; */
-    padding-left: 117px;
 }
 
 .conteudo {
