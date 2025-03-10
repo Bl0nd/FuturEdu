@@ -1,0 +1,165 @@
+/* 769 ate 900 */
+@media(max-width: 900px) {
+    .redeSocial ul {
+        font-size: 12px;
+
+        a {
+            font-size: 13px;
+        }
+    }
+
+    .menu ul {
+        font-size: 11px;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .text h1 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    .btnE {
+        font-size: 10px;
+    }
+
+    .btnC {
+        font-size: 10px;
+    }
+
+    /* banner */
+    .bannerI {
+        padding: 10px;
+    }
+
+    .bannerI .text {
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .bannerI .text h2 {
+        font-size: 1.2em;
+    }
+
+    .bannerI .text h1 {
+        font-size: 1.8em;
+    }
+
+    .bannerI .text h4 {
+        font-size: 0.9em;
+    }
+
+    .bannerI .img img {
+        width: 80%;
+        height: auto;
+    }
+
+    /* carrosel */
+    .carrosel {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+    }
+
+    .carrosel::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* popular */
+    .popular nav ul {
+        align-items: center;
+    }
+
+    .popular nav ul li {
+        flex: 1 1 100%;
+        margin: 10px 0;
+    }
+
+    /* destaque */
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    .card img {
+        max-width: 100%;
+    }
+
+    /* sobre */
+    .sobre {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .faixa {
+        display: none;
+    }
+
+    .sobre img {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+    }
+
+    .conteudo {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .conteudo h3,
+    .conteudo h2,
+    .conteudo p {
+        padding: 10px 0;
+    }
+
+    .cardS {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prof img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* 361 ate 768 */
+@media(max-width: 768px) {
+    .carrosel-img {
+        width: 100px;
+        height: 80px;
+    }
+
+    .popular nav ul {
+        display: ruby;
+    }
+
+    .sobre img {
+        width: 80%;
+    }
+
+    .cardText h4 {
+        font-size: 18px;
+    }
+}
+
+/* 0 ate 360 */
+@media(max-width: 360px) {}
