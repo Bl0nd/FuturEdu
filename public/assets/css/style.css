@@ -59,7 +59,7 @@ header {
     padding: 20px 0;
 }
 
-.menu {
+.menu-fixo {
     position: fixed;
     top: 0;
     z-index: 10;
@@ -151,28 +151,13 @@ header {
     text-decoration: none;
 }
 
-.menu button {
-    margin-left: 10px;
-}
-
-.menuH {
-    flex-grow: 2;
-    align-content: center;
-}
-
-.ativo {
-    color: #007ab3 !important;
-}
-
 /* botões */
 .btnE,
 .btnC {
     padding: 10px 20px;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
-    color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     transition: background 0.3s ease;
     font-family: "effra", sans-serif;
@@ -184,18 +169,18 @@ header {
 }
 
 .btnE:hover {
-    background: #5936b3;
+    background: #7727ac;
     color: #fff;
 }
 
 .btnC {
-    background: #7e22ce;
+    background: #7727ac;
     color: #fff;
 }
 
 .btnC:hover {
     background: #fff;
-    color: #7e22ce;
+    color: #7727ac;
 }
 
 /* #endregion menu */
@@ -504,6 +489,7 @@ header {
     padding: 90px;
     align-items: flex-end;
     justify-content: center;
+    padding-left: 150px;
 }
 
 .faixa {

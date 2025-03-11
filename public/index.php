@@ -28,35 +28,36 @@
                     <!-- redes sociais -->
                     <ul>
                         <h3>Encontre-nos em: </h3>
-                        <li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#" target="_blank"><i class='bx bxl-facebook'></i></a></li>
                         <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
                         <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                     </ul>
-                </div>
-                <!-- logo -->
-                <div class="container">
-                    <a href="#">
-                        <h1 class="logo">Logo FutureEdu</h1>
-                    </a>
-
-                    <!--  menu -->
-                    <nav class="menu">
-                        <ul>
-                            <li><a href="#" class="ativo">Inicio</a></li>
-                            <li><a href="#">Cursos + </a></li>
-                            <li><a href="#">Sobre + </a></li>
-                            <li><a href="#">Contato</a></li>
-
-                            <button type="button" class="btnE"><i class='bx bxs-user'></i>ENTRAR</button>
-                            <button type="button" class="btnC"><i class='bx bxs-group'></i>CADASTRAR-SE</button>
-                        </ul>
-                    </nav>
                 </div>
 
                 <button class="abrir-menu"></button>
                 <nav class="menuH"> <!-- inicio-menu -->
                     <button class="fechar-menu"></button>
-                    
+
+                    <!-- logo -->
+                    <div class="container">
+                        <a href="#">
+                            <h1 class="logo">Logo FutureEdu</h1>
+                        </a>
+
+                        <!--  menu -->
+                        <nav class="menu">
+                            <ul>
+                                <li><a href="#" class="ativo">Inicio</a></li>
+                                <li><a href="#">Cursos + </a></li>
+                                <li><a href="#">Sobre + </a></li>
+                                <li><a href="#">Contato</a></li>
+
+                                <button type="button" class="btnE"><i class='bx bxs-user'></i>ENTRAR</button>
+                                <button type="button" class="btnC"><i class='bx bxs-group'></i>CADASTRAR-SE</button>
+                            </ul>
+                        </nav>
+                    </div>
+
                     <!-- banner -->
                     <div class="bannerI">
                         <div class="text">
