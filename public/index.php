@@ -34,9 +34,9 @@
                     </ul>
                 </div>
 
-                <button class="abrir-menu"></button>
-                <nav class="menuH"> <!-- inicio-menu -->
-                    <button class="fechar-menu"></button>
+                <button class="abrir-menu">&#9776;</button>
+                <nav class="nav-links"> <!-- inicio-menu -->
+                    <button class="fechar-menu">&times;</button>
 
                     <!-- logo -->
                     <div class="container">
@@ -147,63 +147,63 @@
                 <!-- CARD 1 -->
                 <div class="card">
                     <img class="cursoI" src="assets/img/Desenvolvimento-Web.png" alt="Desenvolvimento Web">
-                    <h4 class="titulo">Desenvolvimento Web</h4>
+                    <h4 class="titulo titulo-1">* Desenvolvimento Web</h4>
                     <div class="cardT">
                         <span class="avaliacoes">★★★★★ (12 avaliações)</span>
                         <p class="descricao">
                             Fundamentos de HTML, CSS e JavaScript para Web.
                         </p>
                         <div class="info">
-                            <span class="aulas">25 Aulas</span>
-                            <span class="modo">| Curso Online</span>
+                            <span class="aulas"><i class='bx bx-movie-play'></i> 25 Aulas</span>
+                            <span class="modo"><i class='bx bx-bar-chart'></i> Curso Online</span>
                         </div>
                         <div class="professor">
                             <img class="professorI" src="assets/img/Carlos-Silva.png" alt="Carlos Silva">
                             <span class="nome">Carlos Silva</span>
                         </div>
-                        <a href="#" class="btn-saiba-mais">Saiba Mais</a>
+                        <a href="#" class="btn-saiba-mais">Saiba Mais <i class='bx bx-notification' ></i></a>
                     </div>
                 </div>
 
                 <!-- CARD 2 -->
                 <div class="card">
                     <img class="cursoI" src="assets/img/JavaScript-e-Frameworks.png" alt="JavaScript e Frameworks">
-                    <h4 class="titulo">JavaScript e Frameworks</h4>
+                    <h4 class="titulo titulo-2">* JavaScript e Frameworks</h4>
                     <div class="cardT">
                         <span class="avaliacoes">★★★★★ (15 avaliações)</span>
                         <p class="descricao">
                             JavaScript moderno e principais frameworks front-end.
                         </p>
                         <div class="info">
-                            <span class="aulas">30 Aulas</span>
-                            <span class="modo">| Curso Online</span>
+                            <span class="aulas"><i class='bx bx-movie-play'></i> 30 Aulas</span>
+                            <span class="modo"><i class='bx bx-bar-chart'></i> Curso Online</span>
                         </div>
                         <div class="professor">
                             <img class="professorI" src="assets/img/Mariana-Rocha.png" alt="Mariana Rocha">
                             <span class="nome">Mariana Rocha</span>
                         </div>
-                        <a href="#" class="btn-saiba-mais">Saiba Mais</a>
+                        <a href="#" class="btn-saiba-mais">Saiba Mais <i class='bx bx-notification' ></i></a>
                     </div>
                 </div>
 
                 <!-- CARD 3 -->
                 <div class="card">
                     <img class="cursoI" src="assets/img/PHP-e-Desenvolvimento-Back-End.png" alt="PHP e MySQL">
-                    <h4 class="titulo">PHP e MySQL</h4>
+                    <h4 class="titulo titulo-3">* PHP e MySQL</h4>
                     <div class="cardT">
                         <span class="avaliacoes">★★★★★ (10 avaliações)</span>
                         <p class="descricao">
                             Criação de aplicações web com PHP e MySQL.
                         </p>
                         <div class="info">
-                            <span class="aulas">28 Aulas</span>
-                            <span class="modo">| Curso Online</span>
+                            <span class="aulas"><i class='bx bx-movie-play'></i> 28 Aulas</span>
+                            <span class="modo"><i class='bx bx-bar-chart'></i> Curso Online</span>
                         </div>
                         <div class="professor">
                             <img class="professorI" src="assets/img/Lucas-Fernandes.png" alt="Lucas Fernandes">
                             <span class="nome">Lucas Fernandes</span>
                         </div>
-                        <a href="#" class="btn-saiba-mais">Saiba Mais</a>
+                        <a href="#" class="btn-saiba-mais">Saiba Mais <i class='bx bx-notification' ></i></a>
                     </div>
                 </div>
             </div>

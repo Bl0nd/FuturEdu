@@ -66,6 +66,16 @@ header {
     width: 100%;
     margin: 0 auto;
 }
+.abrir-menu, .fechar-menu{
+    font-size: 30px;
+    color: #6a1b9a; /* Cor das bordas e do texto */
+    background: #fff; /* Fundo branco */
+    border: 2px solid transparent; /* Inicialmente transparente */
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
 
 /* #region menu */
 .site {
@@ -351,7 +361,7 @@ header {
 
 .popular button {
     margin-top: 30px;
-    padding: 10px 20px;
+    padding: 6px 20px;
     background-color: #6a1b9a;
     color: #fff;
     border: none;
@@ -359,10 +369,14 @@ header {
     font-size: 16px;
     cursor: pointer;
     transition: background 0.3s;
+    border: 5px solid transparent;
 }
 
 .popular button:hover {
-    background-color: #4a148c;
+    border-image: linear-gradient(to right, #6a1b9a, #2ecc71, #6a1b9a) 2;
+    border-color:#6a1b9a;
+    background: #fff;
+    color:#6a1b9a ;
 }
 
 /* #endregion */
@@ -415,7 +429,7 @@ header {
 }
 
 .titulo {
-    color: #6a1b9a;
+    color: #fff;
     font-size: 16px;
     font-weight: bold;
     padding: 5px 10px;
@@ -424,29 +438,48 @@ header {
     margin-bottom: 5px;
 }
 
+.titulo-1 {
+    background-color: #6a1b9a;
+    font-family: "effra", sans-serif;
+    width: 58%;
+}
+
+.titulo-2 {
+    background-color: #008000;
+    width: 64%;
+}
+
+.titulo-3 {
+    background-color: #FFD700;
+    width: 36%;
+}
+
 .cardT {
     padding: 5px;
     background: #fff;
 }
 
 .avaliacoes {
-    color: #ff9800;
-    font-size: 14px;
+    color: #6a1b9a;
+    font-size: 12px;
     margin-bottom: 10px;
     display: block;
     margin-top: 0;
 }
 
 .descricao {
-    font-size: 14px;
-    color: #555;
+    font-size: 13px;
+    color:#000;
     margin-bottom: 15px;
+    line-height: 20px;
 }
 
 .info {
-    font-size: 14px;
-    color: #777;
+    font-size: 10px;
+    color: #6a1b9a;
     margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .professor {

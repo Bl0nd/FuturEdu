@@ -1,5 +1,5 @@
 /* 769 ate 900 */
-@media(max-width: 900px) {
+@media screen and (max-width: 900px) {
     .redeSocial ul {
         font-size: 12px;
 
@@ -48,15 +48,15 @@
     }
 
     .bannerI .text h2 {
-        font-size: 1.2em;
+        font-size: 20px;
     }
 
     .bannerI .text h1 {
-        font-size: 1.8em;
+        font-size: 15px;
     }
 
     .bannerI .text h4 {
-        font-size: 0.9em;
+        font-size: 10px;
     }
 
     .bannerI .img img {
@@ -66,10 +66,7 @@
 
     /* carrosel */
     .carrosel {
-        flex-wrap: nowrap;
-        overflow-x: scroll;
-        -webkit-overflow-scrolling: touch;
-        scroll-snap-type: x mandatory;
+        gap: 5px;
     }
 
     .carrosel::-webkit-scrollbar {
@@ -142,7 +139,59 @@
 }
 
 /* 361 ate 768 */
-@media(max-width: 768px) {
+@media screen and (max-width: 768px) {
+    .abrir-menu {
+        display: block;
+    }
+
+    .nav-links.menu-ativo {
+        display: block;
+    }
+
+    .nav-links li {
+        display: none;
+    }
+
+    .nav-links.menu-ativo li {
+        display: block;
+    }
+
+    .fechar-menu {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        display: none;
+    }
+
+    .menu-ativo .fechar-menu {
+        display: block;
+    }
+
+    .menu-ativo .abrir-menu {
+        display: none;
+    }
+
+    .redeSocial ul {
+        font-size: 7px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .bannerI .text h2 {
+        font-size: 12px;
+    }
+
+    .bannerI .text h1 {
+        font-size: 15px;
+    }
+
+    .bannerI .text h4 {
+        font-size: 10px;
+    }
+
     .carrosel-img {
         width: 100px;
         height: 80px;
@@ -159,7 +208,78 @@
     .cardText h4 {
         font-size: 18px;
     }
+
+    /* conteudo */
+    .conteudo h2 {
+        font-size: 15px;
+    }
+
+    .conteudo h3 {
+        color: #6A1B9A;
+        font-size: 10px;
+    }
 }
 
 /* 0 ate 360 */
-@media(max-width: 360px) {}
+@media screen and (max-width: 360px) {
+
+    /* logo */
+    .logo {
+        width: 60px;
+        background-image: url(../img/ms-icon-150x150.png);
+    }
+
+    /* banner */
+    .bannerI {
+        display: block;
+    }
+
+    .text h1 {
+        font-size: 15px;
+    }
+
+    .text h2 {
+        font-size: 10px;
+    }
+
+    /* menu hamburguer */
+    .abrir-menu,
+    .fechar-menu {
+        display: block;
+    }
+
+    .abrir-menu {
+        display: block;
+    }
+
+    .nav-links.menu-ativo {
+        display: block;
+    }
+
+    .nav-links li {
+        display: none;
+    }
+
+    .nav-links.menu-ativo li {
+        display: block;
+    }
+
+    .fechar-menu {
+        display: block;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+        display: none;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .menu-ativo .fechar-menu {
+        display: block;
+    }
+
+    .menu-ativo .abrir-menu {
+        display: none;
+    }
+}
