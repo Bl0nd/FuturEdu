@@ -66,11 +66,13 @@ header {
     width: 100%;
     margin: 0 auto;
 }
-.abrir-menu, .fechar-menu{
+
+.abrir-menu,
+.fechar-menu {
     font-size: 30px;
-    color: #6a1b9a; 
-    background: #fff; 
-    border: 2px solid transparent; 
+    color: #6a1b9a;
+    background: #fff;
+    border: 2px solid transparent;
     border-radius: 5px;
     cursor: pointer;
     display: none;
@@ -373,10 +375,10 @@ header {
 
 .popular button:hover {
     border-image: linear-gradient(to right, #6a1b9a, #2ecc71, #6a1b9a) 2;
-    border-color:#6a1b9a;
+    border-color: #6a1b9a;
     border-radius: 10px;
     background: #fff;
-    color:#6a1b9a ;
+    color: #6a1b9a;
 }
 
 /* #endregion */
@@ -469,7 +471,7 @@ header {
 
 .descricao {
     font-size: 13px;
-    color:#000;
+    color: #000;
     margin-bottom: 15px;
     line-height: 20px;
 }
