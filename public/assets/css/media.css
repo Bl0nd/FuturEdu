@@ -242,6 +242,11 @@
         font-size: 10px;
     }
 
+    .text h3 {
+        font-size: 9px;
+        padding: 15px;
+    }
+
     /* menu hamburguer */
     .abrir-menu,
     .fechar-menu {
@@ -281,5 +286,55 @@
 
     .menu-ativo .abrir-menu {
         display: none;
+    }
+
+    /* carrosel */
+    .carrosel-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* popular */
+    .popular h3 {
+        font-size: 16px;
+    }
+
+    .popular h2 {
+        font-size: 20px;
+    }
+
+    /* destaque */
+    .titulo-1 {
+        width: 50%;
+    }
+
+    .titulo-2 {
+        width: 38%;
+    }
+
+    .titulo-3 {
+        width: 20%;
+    }
+
+    .titulo {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    /* card prof */
+    .professorI {
+        width: 70px;
+        height: 70px;
+    }
+
+    .btnE,
+    .btnC {
+        font-size: 7px;
+    }
+
+    /* conteudo */
+    .conteudo p {
+        font-size: 15px;
+        line-height: 1.2;
     }
 }

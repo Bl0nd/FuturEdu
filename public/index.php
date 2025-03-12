@@ -34,15 +34,15 @@
                     </ul>
                 </div>
 
-                <button class="abrir-menu">&#9776;</button>
-                <nav class="nav-links"> <!-- inicio-menu -->
-                    <button class="fechar-menu">&times;</button>
-
                     <!-- logo -->
                     <div class="container">
                         <a href="#">
                             <h1 class="logo">Logo FutureEdu</h1>
                         </a>
+
+                <button class="abrir-menu">&#9776;</button>
+                <nav class="nav-links"> <!-- inicio-menu -->
+                    <button class="fechar-menu">&times;</button>
 
                         <!--  menu -->
                         <nav class="menu">
@@ -78,7 +78,7 @@
     </header>
 
     <main>
-        <!-- carrosell -->
+        <!-- carrosel -->
         <div class="carroselC">
             <div class="carrosel-wrapper">
                 <div class="carrosel">
@@ -264,7 +264,7 @@
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- JavaScript -->
-    <script src="/asserts/js/script.js"></script>
+    <script src="/assets/js/script.js"></script>
 </body>
 
 </html>
