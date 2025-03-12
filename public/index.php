@@ -34,15 +34,15 @@
                     </ul>
                 </div>
 
-                    <!-- logo -->
-                    <div class="container">
-                        <a href="#">
-                            <h1 class="logo">Logo FutureEdu</h1>
-                        </a>
+                <!-- logo -->
+                <div class="container">
+                    <a href="#">
+                        <h1 class="logo">Logo FutureEdu</h1>
+                    </a>
 
-                <button class="abrir-menu">&#9776;</button>
-                <nav class="nav-links"> <!-- inicio-menu -->
-                    <button class="fechar-menu">&times;</button>
+                    <button class="abrir-menu">&#9776;</button>
+                    <nav class="nav-links"> <!-- inicio-menu -->
+                        <button class="fechar-menu">&times;</button>
 
                         <!--  menu -->
                         <nav class="menu">
@@ -56,23 +56,24 @@
                                 <button type="button" class="btnC"><i class='bx bxs-group'></i>CADASTRAR-SE</button>
                             </ul>
                         </nav>
+                    </nav>
+                </div>
+
+                <!-- banner -->
+                <div class="bannerI">
+                    <div class="text">
+                        <h2>Educação para o futuro</h2>
+                        <h1>Transforme seu Conhecimento <br>
+                            com a FutureEdu</h1>
+                        <h4>Cursos online e presenciais com especialistas renomados. Desenvolva habilidades
+                            essenciais e
+                            conquiste novas oportunidades no mercado de trabalho !</h4>
                     </div>
 
-                    <!-- banner -->
-                    <div class="bannerI">
-                        <div class="text">
-                            <h2>Educação para o futuro</h2>
-                            <h1>Transforme seu Conhecimento <br>
-                                com a FutureEdu</h1>
-                            <h4>Cursos online e presenciais com especialistas renomados. Desenvolva habilidades
-                                essenciais e
-                                conquiste novas oportunidades no mercado de trabalho !</h4>
-                        </div>
-
-                        <div class="img">
-                            <img src="assets/img/01.png" alt="">
-                        </div>
+                    <div class="img">
+                        <img src="assets/img/01.png" alt="">
                     </div>
+                </div>
             </section>
         </div>
     </header>
@@ -161,7 +162,7 @@
                             <img class="professorI" src="assets/img/Carlos-Silva.png" alt="Carlos Silva">
                             <span class="nome">Carlos Silva</span>
                         </div>
-                        <a href="#" class="btn-saiba-mais">Saiba Mais <i class='bx bx-notification' ></i></a>
+                        <a href="#" class="btn-saiba-mais">Saiba Mais <i class='bx bx-notification'></i></a>
                     </div>
                 </div>
 
@@ -182,7 +183,7 @@
                             <img class="professorI" src="assets/img/Mariana-Rocha.png" alt="Mariana Rocha">
                             <span class="nome">Mariana Rocha</span>
                         </div>
-                        <a href="#" class="btn-saiba-mais">Saiba Mais <i class='bx bx-notification' ></i></a>
+                        <a href="#" class="btn-saiba-mais">Saiba Mais <i class='bx bx-notification'></i></a>
                     </div>
                 </div>
 
@@ -203,7 +204,7 @@
                             <img class="professorI" src="assets/img/Lucas-Fernandes.png" alt="Lucas Fernandes">
                             <span class="nome">Lucas Fernandes</span>
                         </div>
-                        <a href="#" class="btn-saiba-mais">Saiba Mais <i class='bx bx-notification' ></i></a>
+                        <a href="#" class="btn-saiba-mais">Saiba Mais <i class='bx bx-notification'></i></a>
                     </div>
                 </div>
             </div>

@@ -68,9 +68,9 @@ header {
 }
 .abrir-menu, .fechar-menu{
     font-size: 30px;
-    color: #6a1b9a; /* Cor das bordas e do texto */
-    background: #fff; /* Fundo branco */
-    border: 2px solid transparent; /* Inicialmente transparente */
+    color: #6a1b9a; 
+    background: #fff; 
+    border: 2px solid transparent; 
     border-radius: 5px;
     cursor: pointer;
     display: none;
