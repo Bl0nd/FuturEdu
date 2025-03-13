@@ -74,7 +74,7 @@
                         <img src="assets/img/01.png" alt="">
                     </div>
                 </div>
-            </section>
+
         </div>
     </header>
 

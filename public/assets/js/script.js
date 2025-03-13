@@ -1,7 +1,7 @@
 //MENU FIXO
 window.onscroll = function () {
     var top = document.documentElement.scrollTop;
-    if (top > 900) {
+    if (top > 200) {
         document.getElementById("topo-fixo").classList.add('menu-fixo');
     }
     else {

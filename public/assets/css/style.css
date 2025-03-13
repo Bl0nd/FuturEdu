@@ -51,7 +51,7 @@ body {
     background: #f9f9f9;
 }
 
-header {
+header{
     background: url('../img/01.jpg');
     display: flex;
     justify-content: space-between;
