@@ -1,13 +1,16 @@
 //MENU FIXO
-window.onscroll = function () {
-    var top = document.documentElement.scrollTop;
-    if (top > 200) {
-        document.getElementById("topo-fixo").classList.add('menu-fixo');
+window.onscroll = function () {adicionarClassefixed()} 
+    function adicionarClassefixed(){
+        var container = document.querySelector(".container");
+    
+    if (top >= 600) {
+       container.classList.add('fixed');
     }
     else {
-        document.getElementById("topo-fixo").classList.remove('menu-fixo');
+        container.classList.remove('fixed');
     }
 }
+
 
 // Carrosel
 document.addEventListener("DOMContentLoaded", function () {

@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header id="topo-fixo">
+    <header>
         <div class="site">
             <section class="banner">
                 <div class="redeSocial">
@@ -35,14 +35,14 @@
                 </div>
 
                 <!-- logo -->
-                <div class="container">
+                <div class="container" id="topo-fixo">
                     <a href="#">
                         <h1 class="logo">Logo FutureEdu</h1>
                     </a>
 
-                    <button class="abrir-menu">&#9776;</button>
+                    <button class="abrir-menu"></button>
                     <nav class="nav-links"> <!-- inicio-menu -->
-                        <button class="fechar-menu">&times;</button>
+                        <button class="fechar-menu"></button>
 
                         <!--  menu -->
                         <nav class="menu">
