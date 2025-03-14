@@ -1,15 +1,19 @@
 //MENU FIXO
-window.onscroll = function () {adicionarClassefixed()} 
-    function adicionarClassefixed(){
-        var container = document.querySelector(".container");
+window.onscroll = function () {
+    adicionarClassefixed();
+};
+
+function adicionarClassefixed() {
+    var container = document.querySelector(".container");
     
-    if (top >= 600) {
+    // Verifica a posição de rolagem da página
+    if (window.scrollY >= 200) {
        container.classList.add('fixed');
-    }
-    else {
+    } else {
         container.classList.remove('fixed');
     }
 }
+
 
 
 // Carrosel
