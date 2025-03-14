@@ -176,8 +176,17 @@
         font-size: 7px;
     }
 
+    .redeSocial h3 {
+        display: none;
+    }
+
     .logo {
         width: 150px;
+    }
+
+    /* banner */
+    .bannerI img {
+        display: none;
     }
 
     .bannerI .text h2 {
@@ -222,6 +231,10 @@
 
 /* 0 ate 360 */
 @media screen and (max-width: 360px) {
+    /* rede social */
+    .redeSocial {
+        display: block;
+    }
 
     /* logo */
     .logo {
@@ -230,6 +243,10 @@
     }
 
     /* banner */
+    .banner {
+        padding: 10px;
+    }
+
     .bannerI {
         display: block;
     }
@@ -290,8 +307,8 @@
 
     /* carrosel */
     .carrosel-img {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     /* popular */

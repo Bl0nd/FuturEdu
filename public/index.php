@@ -40,9 +40,9 @@
                         <h1 class="logo">Logo FutureEdu</h1>
                     </a>
 
-                    <button class="abrir-menu"></button>
+                    <button class="abrir-menu">☰</button>
                     <nav class="nav-links"> <!-- inicio-menu -->
-                        <button class="fechar-menu"></button>
+                        <button class="fechar-menu">X</button>
 
                         <!--  menu -->
                         <nav class="menu">

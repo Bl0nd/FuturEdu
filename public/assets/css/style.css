@@ -71,14 +71,13 @@ header{
 .abrir-menu,
 .fechar-menu {
     font-size: 30px;
-    color: #6a1b9a;
-    background: #fff;
+    background: #6a1b9a;
+    color: #fff;
     border: 2px solid transparent;
     border-radius: 5px;
     cursor: pointer;
     display: none;
 }
-
 
 /* #region menu */
 .site {
@@ -171,6 +170,7 @@ header{
     color: #ffff;
     text-decoration: none;
 }
+
 
 /* botões */
 .btnE,

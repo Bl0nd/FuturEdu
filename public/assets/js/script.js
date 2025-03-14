@@ -14,8 +14,6 @@ function adicionarClassefixed() {
     }
 }
 
-
-
 // Carrosel
 document.addEventListener("DOMContentLoaded", function () {
     const carrossel = document.querySelector(".carrosel");
