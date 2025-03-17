@@ -173,6 +173,9 @@ header {
     text-decoration: none;
 }
 
+.redeSocial ul li a:hover {
+    color:#007ab3;
+}
 
 /* botões */
 .btnE,
