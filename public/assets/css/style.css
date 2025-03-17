@@ -51,7 +51,7 @@ body {
     background: #f9f9f9;
 }
 
-header{
+header {
     background: url('../img/01.jpg') center center no-repeat;
     background-size: cover;
     width: 100%;
@@ -141,9 +141,9 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;    
+    right: 0;
     width: 100%;
-    background-color:#007ab3;
+    background: url('../img/01.jpg');
     z-index: 1000;
 }
 
